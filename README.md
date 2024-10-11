@@ -1,37 +1,38 @@
-# ProgramBoys - Proof of Concept 4 (POC)
+```markdown
+# ProgramBoys - Proof of Concept (POC) 4
 
 ## Objetivo
-Esta prova de conceito (POC) tem como objetivo demonstrar a capacidade do grupo ProgramBoys em consumir uma API externa que fornece tabelas FIP de carros utilizando a tecnologia Fetch. 
+Esta prova de conceito (POC) tem como objetivo demonstrar a capacidade do grupo ProgramBoys em consumir uma API externa que fornece informações sobre os jogos da franquia The Legend of Zelda utilizando a tecnologia Fetch.
 
 ## Integrantes
-- Vitor Lemos 
-- Marcelo Takao 
-- José Pedro 
+- Vitor Lemos
+- Marcelo Takao
+- José Pedro
 - Guilherme Anaya
 
 ## Tecnologias Utilizadas
 - HTML5
 - CSS3
 - JavaScript (Fetch API)
-- API: Brazilian Vehicles and Prices
+- API: The Legend of Zelda Games Information
 
 ## Funcionalidades
-1. **Consulta de Tabelas FIP**:
-    - Consumo da API de tabelas FIP para obter informações sobre valores de mercado de veículos.
+1. **Consulta de Jogos The Legend of Zelda**:
+    - Consumo da API para obter informações detalhadas sobre os jogos da franquia The Legend of Zelda.
 2. **Interface Usuário Amigável**:
-    - Interface simples e intuitiva para facilitar a consulta das informações.
+    - Interface simples e intuitiva para facilitar a consulta das informações dos jogos.
 3. **Atualização em Tempo Real**:
     - Atualização dinâmica dos dados utilizando Fetch API.
 
 ### Funcionamento Básico de uma API
-Uma API (Interface de Programação de Aplicações) permite que diferentes sistemas de software se comuniquem entre si. Quando você faz uma solicitação a uma API, está basicamente pedindo dados ou recursos específicos. A API processa essa solicitação e retorna a informação desejada. No contexto da nossa POC, a API de tabelas FIP fornece informações sobre os valores de mercado de veículos.
+Uma API (Interface de Programação de Aplicações) permite que diferentes sistemas de software se comuniquem entre si. Quando você faz uma solicitação a uma API, está basicamente pedindo dados ou recursos específicos. A API processa essa solicitação e retorna a informação desejada. No contexto da nossa POC, a API fornece informações detalhadas sobre os jogos da franquia The Legend of Zelda.
 
 #### Exemplo de Código
 Aqui está um exemplo simples de como uma API pode ser chamada e como lidar com a resposta:
 
 ```javascript
-// URL da API que fornece dados sobre veículos
-const apiUrl = 'https://api.fipe.com.br/carros';
+// URL da API que fornece dados sobre os jogos da franquia The Legend of Zelda
+const apiUrl = 'https://api.example.com/zelda-games';
 
 // Realiza a solicitação à API usando Fetch
 fetch(apiUrl)
@@ -61,7 +62,7 @@ O Fetch é uma API JavaScript moderna que permite realizar solicitações HTTP d
 A sintaxe básica do Fetch envolve chamar a função `fetch()` com a URL do recurso que você deseja acessar. Ele retorna uma Promise que resolve com a resposta da solicitação.
 
 ```javascript
-fetch('https://api.exemplo.com/dados')
+fetch('https://api.example.com/dados')
     .then(response => {
         if (response.ok) {
             return response.json(); // Converte a resposta em JSON
@@ -81,10 +82,7 @@ fetch('https://api.exemplo.com/dados')
 1. **fetch(url)**: Chama a API Fetch com a URL do recurso desejado.
 2. **.then(response => response.json())**: Processa a resposta da solicitação e converte em JSON.
 3. **.then(data => ...)**: Lida com os dados convertidos da resposta.
-4. **.catch(error => ...)**: Lida com erros que possam ocorrer durante a solicitação. 
+4. **.catch(error => ...)**: Lida com erros que possam ocorrer durante a solicitação
 
----
-
-**Feito com ❤️ por ProgramBoys**
-
+**Feito com 🔺🔺🔺 por ProgramBoys**
 ```
