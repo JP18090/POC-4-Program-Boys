@@ -85,6 +85,3 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](L
 **Feito com ❤️ por ProgramBoys**
 
 ```
-
-Espero que isso ajude a começar a POC com o pé direito. Boa sorte, ProgramBoys!
- 
