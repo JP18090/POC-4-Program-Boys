@@ -1,4 +1,4 @@
-```markdown
+
 # ProgramBoys - Proof of Concept (POC) 4
 
 ## Objetivo
@@ -14,7 +14,7 @@ Esta prova de conceito (POC) tem como objetivo demonstrar a capacidade do grupo 
 - HTML5
 - CSS3
 - JavaScript (Fetch API)
-- API: The Legend of Zelda Games Information
+- API: Zelda API
 
 ## Funcionalidades
 1. **Consulta de Jogos The Legend of Zelda**:
