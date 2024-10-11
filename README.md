@@ -84,5 +84,11 @@ fetch('https://api.example.com/dados')
 3. **.then(data => ...)**: Lida com os dados convertidos da resposta.
 4. **.catch(error => ...)**: Lida com erros que possam ocorrer durante a solicitação
 
+
+## Exemplo de funcionamento (o que deve aparecer)
+
+![image](https://github.com/user-attachments/assets/538f8404-85dc-46c2-97f2-46fef53438ad)
+
+
 **Feito com 🔺🔺🔺 por ProgramBoys**
 ```
